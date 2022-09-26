@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    min-width: 400px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    height: 80px;   
+    margin-bottom: 40px;
+}
+.nav-container > h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.nav-container > svg {
+    margin-right: 10px;
+}
+/* Card */
+.card {
+    width: 80%;
+    height: 220px;
+    margin: 10px auto;
+    display: flex;
+    /* border: 1px solid #F5F5F5 */
+}
+
+.card--image {
+    width: 150px;
+    height: 92%;
+    border-radius: 8px;
+    margin: 20px 15px;
+    /* padding: 5px; */
+}
+/* Card Location Row */
+.location-details {
+    /* border: 1px solid red; */
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.location-pin {
+    color: #F55A5A;
+}
+
+.location-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.google-maps-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+/* Card Title */
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 25px;
+    line-height: 40px;
+    color: #2B283A;
+}
+/* Dates */
+.dates {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: 60%
+    }
+}
+
+@media (min-width: 1400px) {
+    .card {
+        width: 50%
+    }
+}
